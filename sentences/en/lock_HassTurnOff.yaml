@@ -13,5 +13,4 @@ intents:
           - "unlock [all] <area> [locks|doors]"
         slots:
           domain: "lock"
-          name: "all"
         response: lock
