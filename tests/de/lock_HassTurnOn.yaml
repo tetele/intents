@@ -48,8 +48,7 @@ tests:
       - "verriegel im Flur alle Schlösser"
     intent:
       name: HassTurnOn
-      context:
-        domain: lock
       slots:
         area: Flur
+        domain: lock
     response: abgeschlossen

@@ -50,8 +50,7 @@ tests:
       - "entriegel im Flur die Türen"
     intent:
       name: HassTurnOff
-      context:
-        domain: lock
       slots:
+        domain: lock
         area: Flur
     response: entsperrt

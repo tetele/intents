@@ -112,10 +112,10 @@ tests:
       - Setze die Lautstärke auf 10%
       - Setze Lautstärke auf 10%
       - Lautstärke auf 10%
+    context:
+      area: Wohnzimmer
     intent:
       name: HassSetVolume
-      context:
-        area: Wohnzimmer
       slots:
         area: "Wohnzimmer"
         volume_level: 10
@@ -128,10 +128,10 @@ tests:
       - Die Lautstärke im Wohnzimmer auf 10 stellen
       - Lautstärke im Wohnzimmer 10 %
       - Lautstärke im Wohnzimmer auf 10 % setzen
+    context:
+      area: Wohnzimmer
     intent:
       name: HassSetVolume
-      context:
-        area: Wohnzimmer
       slots:
         area: "Wohnzimmer"
         volume_level: 10
