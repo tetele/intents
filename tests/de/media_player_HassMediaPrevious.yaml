@@ -47,12 +47,12 @@ tests:
       - "Starte letzten Song im Wohnzimmer"
       - "Spiele letztes Lied im Wohnzimmer"
       - "Spiele letztes Stück im Wohnzimmer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaPrevious
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Spiele vorheriges"
   - sentences:
       - "Wiederhole letzten Titel"
@@ -70,10 +70,10 @@ tests:
       - "Starte letzten Song"
       - "Spiele letztes Lied"
       - "Spiele letztes Stück"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaPrevious
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Spiele vorheriges"

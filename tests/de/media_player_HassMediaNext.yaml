@@ -19,12 +19,12 @@ tests:
       - "Starte nächsten Song im Wohnzimmer"
       - "Spiele nächstes Lied im Wohnzimmer"
       - "Spiele nächstes Stück im Wohnzimmer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaNext
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Nächstes"
   - sentences:
       - "Nächster Titel"
@@ -32,10 +32,10 @@ tests:
       - "Starte nächsten Song"
       - "Spiele nächstes Lied"
       - "Spiele nächstes Stück"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaNext
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Nächstes"

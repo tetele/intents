@@ -16,12 +16,12 @@ tests:
       - "weiter laufen lassen"
       - "weiter machen"
       - "fortsetzen"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaUnpause
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Fortgesetzt"
   - sentences:
       - "Musik im Wohnzimmer fortsetzen"
@@ -30,10 +30,10 @@ tests:
       - "Die Fernsehsendung im Wohnzimmer weiter machen"
       - "Das Gerät im Wohnzimmer fortsetzen"
       - "Das Gerät im Wohnzimmer weiter"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaUnpause
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Fortgesetzt"

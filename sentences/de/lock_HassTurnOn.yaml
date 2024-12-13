@@ -20,6 +20,6 @@ intents:
           - "<area>[ <alle>] (<tuer>|<schloss>) (zu[machen]|<absperren>)"
           - "<absperren>[ <alle>] (<tuer>|<schloss>) <area>"
           - "<absperren> <area>[ <alle>] (<tuer>|<schloss>)"
-        requires_context:
+        slots:
           domain: lock
         response: lock

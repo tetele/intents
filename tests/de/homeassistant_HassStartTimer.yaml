@@ -27,10 +27,10 @@ tests:
       - "1 Stunde Timer"
       - "Timer auf 1 Stunde"
       - "Timer für 1 Stunde"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         hours: 1
     response: Timer für 1 Stunde gestartet
@@ -39,10 +39,10 @@ tests:
       - "Starte einen 1 Stunde und 15 Minuten Timer"
       - "Timer für 1 Stunde und 15 Minuten"
       - "Setze Timer für 1 Stunde und 15 Minuten"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         hours: 1
         minutes: 15
@@ -52,10 +52,10 @@ tests:
       - "Starte einen 1 Stunde und 30 Sekunden Timer"
       - "Timer für 1 Stunde und 30 Sekunden"
       - "Setze Timer für 1 Stunde und 30 Sekunden"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         hours: 1
         seconds: 30
@@ -65,10 +65,10 @@ tests:
       - "Starte einen 1 Stunde 15 Minuten und 30 Sekunden timer"
       - "1 Stunde 15 Minuten 30 Sekunden Timer"
       - "Stelle Timer für 1 Stunde, 15 Minuten und 30 Sekunden"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         hours: 1
         minutes: 15
@@ -79,10 +79,10 @@ tests:
       - "Starte einen 5 Minuten Timer"
       - "5 Minuten Timer"
       - "Timer für 5 Minuten"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         minutes: 5
     response: Timer für 5 Minuten gestartet
@@ -99,10 +99,10 @@ tests:
       - "Stelle einen Pizza Timer für 5 Minuten"
       - "Stelle Pizza Timer auf 5 Minuten"
       - "Stelle Pizza Timer für 5 Minuten"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         minutes: 5
         name:
@@ -113,10 +113,10 @@ tests:
       - "Starte einen 5 Minuten und 10 Sekunden Timer"
       - "Timer für 5 Minuten und 10 Sekunden"
       - "5 Minuten 10 Sekunden Timer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         minutes: 5
         seconds: 10
@@ -126,10 +126,10 @@ tests:
       - "Starte einen 45 Sekunden Timer"
       - "Timer für 45 Sekunden"
       - "45 Sekunden Timer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassStartTimer
-      context:
-        area: Wohnzimmer
       slots:
         seconds: 45
     response: Timer für 45 Sekunden gestartet

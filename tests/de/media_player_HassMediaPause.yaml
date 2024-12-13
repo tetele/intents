@@ -22,12 +22,12 @@ tests:
       - "stopp"
       - "halt"
       - "halte an"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaPause
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Pausiert"
   - sentences:
       - "pausiere die Musik im Wohnzimmer"
@@ -35,10 +35,10 @@ tests:
       - "pausiere meine Fernsehsendung im Wohnzimmer"
       - "pausiere das Gerät im Wohnzimmer"
       - "pausiere die Geräte im Wohnzimmer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassMediaPause
       slots:
         area: "Wohnzimmer"
-      context:
-        area: Wohnzimmer
     response: "Pausiert"

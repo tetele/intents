@@ -107,10 +107,10 @@ tests:
       - Schalte das Licht an
       - Lichter an
       - Licht an
+    context:
+      area: Schlafzimmer
     intent:
       name: HassTurnOn
-      context:
-        area: Schlafzimmer
       slots:
         domain: light
         area: Schlafzimmer

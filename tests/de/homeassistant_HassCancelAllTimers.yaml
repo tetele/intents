@@ -67,10 +67,10 @@ tests:
       - "stoppe in diesem Raum alle Timer"
       - "stoppe in diesem Raum sämtliche Timer"
       - "stoppe in diesem Raum alle meine Timer"
+    context:
+      area: Wohnzimmer
     intent:
       name: HassCancelAllTimers
-      context:
-        area: Wohnzimmer
       slots:
         area: Wohnzimmer
     response: 1 Timer im Bereich Wohnzimmer gestoppt.
