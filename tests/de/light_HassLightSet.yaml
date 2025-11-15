@@ -255,6 +255,44 @@ tests:
       - Die Helligkeit der Lampen im Schlafzimmer auf 11 Prozent dimmen
       - Helligkeit aller Lampen im Schlafzimmer auf 11 Prozent dimmen
       - Helligkeit im Schlafzimmer auf 11 Prozent dimmen
+      - Schlafzimmer Helligkeit 11%
+      - im Schlafzimmer Helligkeit Licht 11%
+      - im Schlafzimmer Helligkeit des Lichts 11%
+      - im Schlafzimmer helligkeit der Lampen 11%
+      - im Schlafzimmer helligkeit aller Lampen 11%
+      - Schlafzimmer Helligkeit auf 11%
+      - Schlafzimmer Helligkeit Licht auf 11%
+      - im Schlafzimmer Helligkeit des Lichts auf 11 Prozent
+      - im Schlafzimmer die Helligkeit der Lampen auf 11 Prozent
+      - im Schlafzimmer Helligkeit auf 11% einstellen
+      - im Schlafzimmer Helligkeit des Lichts auf 11% einstellen
+      - im Schlafzimmer helligkeit der Lampen auf 11% einstellen
+      - im Schlafzimmer helligkeit aller Lampen auf 11% einstellen
+      - im Schlafzimmer Helligkeit auf 11% dimmen
+      - im Schlafzimmer Helligkeit des Lichts auf 11% dimmen
+      - im Schlafzimmer helligkeit der Lampen auf 11% dimmen
+      - im Schlafzimmer helligkeit aller Lampen auf 11% dimmen
+      - im Schlafzimmer Helligkeit auf 11% ändern
+      - im Schlafzimmer Helligkeit Licht auf 11% ändern
+      - im Schlafzimmer Helligkeit des Lichts auf 11 Prozent stellen
+      - im Schlafzimmer die Helligkeit der Lampen auf 11 Prozent verändern
+      - im Schlafzimmer die Helligkeit 11%
+      - im Schlafzimmer die Helligkeit Licht 11%
+      - im Schlafzimmer die Helligkeit des Lichts 11%
+      - im Schlafzimmer die Helligkeit aller Lichter auf 11%
+      - im Schlafzimmer die Helligkeit Licht auf 11%
+      - im Schlafzimmer die Helligkeit des Lichts auf 11 Prozent
+      - im Schlafzimmer die Helligkeit auf 11% einstellen
+      - im Schlafzimmer die Helligkeit des Lichts auf 11% einstellen
+      - im Schlafzimmer die helligkeit der Lampen auf 11% einstellen
+      - im Schlafzimmer die helligkeit aller Lampen auf 11% einstellen
+      - im Schlafzimmer die Helligkeit auf 11% dimmen
+      - im Schlafzimmer die Helligkeit des Lichts auf 11% dimmen
+      - im Schlafzimmer die helligkeit der Lampen auf 11% dimmen
+      - im Schlafzimmer die helligkeit aller Lampen auf 11% dimmen
+      - im Schlafzimmer die Helligkeit auf 11% ändern
+      - im Schlafzimmer die Helligkeit Licht auf 11% ändern
+      - im Schlafzimmer die Helligkeit des Lichts auf 11 Prozent stellen
     intent:
       name: HassLightSet
       slots:
@@ -337,6 +375,44 @@ tests:
       - Die Helligkeit der Lampen im Erdgeschoss auf 15 Prozent dimmen
       - Helligkeit aller Lampen im Erdgeschoss auf 15 Prozent dimmen
       - Helligkeit im Erdgeschoss auf 15 Prozent dimmen
+      - Erdgeschoss Helligkeit 15%
+      - im Erdgeschoss Helligkeit Licht 15%
+      - im Erdgeschoss Helligkeit des Lichts 15%
+      - im Erdgeschoss helligkeit der Lampen 15%
+      - im Erdgeschoss helligkeit aller Lampen 15%
+      - Erdgeschoss Helligkeit auf 15%
+      - Erdgeschoss Helligkeit Licht auf 15%
+      - im Erdgeschoss Helligkeit des Lichts auf 15 Prozent
+      - im Erdgeschoss die Helligkeit der Lampen auf 15 Prozent
+      - im Erdgeschoss Helligkeit auf 15% einstellen
+      - im Erdgeschoss Helligkeit des Lichts auf 15% einstellen
+      - im Erdgeschoss helligkeit der Lampen auf 15% einstellen
+      - im Erdgeschoss helligkeit aller Lampen auf 15% einstellen
+      - im Erdgeschoss Helligkeit auf 15% dimmen
+      - im Erdgeschoss Helligkeit des Lichts auf 15% dimmen
+      - im Erdgeschoss helligkeit der Lampen auf 15% dimmen
+      - im Erdgeschoss helligkeit aller Lampen auf 15% dimmen
+      - im Erdgeschoss Helligkeit auf 15% ändern
+      - im Erdgeschoss Helligkeit Licht auf 15% ändern
+      - im Erdgeschoss Helligkeit des Lichts auf 15 Prozent stellen
+      - im Erdgeschoss die Helligkeit der Lampen auf 15 Prozent verändern
+      - im Erdgeschoss die Helligkeit 15%
+      - im Erdgeschoss die Helligkeit Licht 15%
+      - im Erdgeschoss die Helligkeit des Lichts 15%
+      - im Erdgeschoss die Helligkeit aller Lichter auf 15%
+      - im Erdgeschoss die Helligkeit Licht auf 15%
+      - im Erdgeschoss die Helligkeit des Lichts auf 15 Prozent
+      - im Erdgeschoss die Helligkeit auf 15% einstellen
+      - im Erdgeschoss die Helligkeit des Lichts auf 15% einstellen
+      - im Erdgeschoss die helligkeit der Lampen auf 15% einstellen
+      - im Erdgeschoss die helligkeit aller Lampen auf 15% einstellen
+      - im Erdgeschoss die Helligkeit auf 15% dimmen
+      - im Erdgeschoss die Helligkeit des Lichts auf 15% dimmen
+      - im Erdgeschoss die helligkeit der Lampen auf 15% dimmen
+      - im Erdgeschoss die helligkeit aller Lampen auf 15% dimmen
+      - im Erdgeschoss die Helligkeit auf 15% ändern
+      - im Erdgeschoss die Helligkeit Licht auf 15% ändern
+      - im Erdgeschoss die Helligkeit des Lichts auf 15 Prozent stellen
     intent:
       name: HassLightSet
       slots:
