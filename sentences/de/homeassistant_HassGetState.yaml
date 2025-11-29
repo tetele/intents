@@ -12,8 +12,8 @@ intents:
             - script
 
       - sentences:
-          - "wie laut ist <name>"
-          - "Lautstärke <name>"
+          - "wie laut ist <name>[ <area_floor>]"
+          - "Lautstärke <name>[ <area_floor>]"
         response: get_volume
         requires_context:
           domain:

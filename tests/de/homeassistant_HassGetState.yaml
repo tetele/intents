@@ -35,6 +35,36 @@ tests:
         name: "Radio"
     response: "Radio hat keinen Lautstärke-Wert"
 
+  - sentences:
+      - "wie laut ist der Akkulautsprecher im Wohnzimmer"
+      - "Lautstärke des Akkulautsprecher im Wohnzimmer"
+    intent:
+      name: HassGetState
+      slots:
+        name: "Akkulautsprecher"
+        area: Wohnzimmer
+    response: "Akkulautsprecher ist auf 60 % eingestellt"
+
+  - sentences:
+      - "wie laut ist der Akkulautsprecher in der Küche"
+      - "Lautstärke des Akkulautsprecher in der Küche"
+    intent:
+      name: HassGetState
+      slots:
+        name: "Akkulautsprecher"
+        area: Küche
+    response: "Akkulautsprecher ist auf 50 % eingestellt"
+
+  - sentences:
+      - "wie laut ist der Akkulautsprecher im Obergeschoss"
+      - "Lautstärke des Akkulautsprecher im Obergeschoss"
+    intent:
+      name: HassGetState
+      slots:
+        name: "Akkulautsprecher"
+        floor: Obergeschoss
+    response: "Akkulautsprecher ist auf 40 % eingestellt"
+
   # tests for paused with title and artist
   - sentences:
       - "wie heisst das Lied auf dem Küchenradio"
