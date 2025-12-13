@@ -4,6 +4,7 @@ tests:
       - "beende Timer"
       - "beende den Timer"
       - "stoppe meinen Timer"
+      - "stoppe unseren Timer"
       - "stopp den Timer"
       - "lösch den Timer"
       - "lösche den Timer"
@@ -19,6 +20,8 @@ tests:
       - "stopp den 5 Minuten Timer"
       - "lösche Timer für 5 Minuten"
       - "lösch 5 Minuten Timer"
+      - "beende meinen 5 Minuten Timer"
+      - "stoppe unseren 5 Minuten Timer"
     intent:
       name: HassCancelTimer
       slots:
@@ -28,13 +31,17 @@ tests:
   - sentences:
       - "stoppe Pizza Timer"
       - "beende meinen Pizza Timer"
+      - "beende unseren Pizza Timer"
       - "stoppe meinen Timer für Pizza"
+      - "stoppe unseren Timer für Pizza"
       - "stopp den Pizza Timer"
       - "lösch meinen Pizza Timer"
+      - "lösch unseren Pizza Timer"
       - "lösche Pizza Timer"
       - "Pizza Timer abbrechen"
       - "den Pizza Timer ausschalten"
       - "meinen Pizza Timer deaktivieren"
+      - "unseren Pizza Timer deaktivieren"
       - "Pizza Timer aus"
       - "den Pizza Timer stoppen"
     intent:
@@ -48,7 +55,9 @@ tests:
       - "beende Wohnzimmer Timer"
       - "beende den Timer im Wohnzimmer"
       - "lösch meinen Wohnzimmer Timer"
+      - "lösch unseren Wohnzimmer Timer"
       - "lösche meinen Timer im Wohnzimmer"
+      - "lösche unseren Timer im Wohnzimmer"
       - "stopp Wohnzimmer Timer"
       - "stoppe den Wohnzimmer Timer"
     intent:
@@ -73,6 +82,11 @@ tests:
       - "Meinen Timer abbrechen"
       - "Meinen Timer stoppen"
       - "Meinen Timer aus"
+      - "unseren Timer ausschalten"
+      - "unseren Timer deaktivieren"
+      - "unseren Timer abbrechen"
+      - "unseren Timer stoppen"
+      - "unseren Timer aus"
     intent:
       name: HassCancelTimer
     response: Timer gestoppt
@@ -93,6 +107,11 @@ tests:
       - "Meinen 5 Minuten Timer abbrechen"
       - "Meinen 5 Minuten Timer stoppen"
       - "Meinen 5 Minuten Timer aus"
+      - "unseren 5 Minuten Timer ausschalten"
+      - "unseren 5 Minuten Timer deaktivieren"
+      - "unseren 5 Minuten Timer abbrechen"
+      - "unseren 5 Minuten Timer stoppen"
+      - "unseren 5 Minuten Timer aus"
     intent:
       name: HassCancelTimer
       slots:
